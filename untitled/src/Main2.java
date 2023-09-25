@@ -5,6 +5,10 @@ public class Main2 {
         ObjectInputStream inputStream=new ObjectInputStream(new FileInputStream("account.dat"));
         BankAccount account=(BankAccount) inputStream.readObject();
         System.out.println(account.getName()+"  "+account.getBalance());
+        System.out.println(account.getName()+"  "+account.getBalance());
+        System.out.println(account.getName()+"  "+account.getBalance());
+        System.out.println(account.getName()+"  "+account.getBalance());
+        System.out.println(account.getName()+"  "+account.getBalance());
     }
 }
 
@@ -19,9 +23,7 @@ class BankAccount implements Serializable{
     public String getName(){
         return name;
     }
-    public void setBalance(int deposit){
-        balance+=deposit;
-    }
+
     public int getBalance(){
         return balance;
     }

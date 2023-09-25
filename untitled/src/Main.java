@@ -17,6 +17,10 @@ public class Main {
         System.out.println(countTriplets(list,1));
         System.out.println(countTriplets(list,1));
         System.out.println(countTriplets(list,1));
+        System.out.println(countTriplets(list,1));
+        System.out.println(countTriplets(list,1));
+        System.out.println(countTriplets(list,1));
+        System.out.println(countTriplets(list,1));
     }
 
     static long countTriplets(List<Long> arr, long r) {
